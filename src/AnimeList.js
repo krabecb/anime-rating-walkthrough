@@ -9,13 +9,13 @@ export default function AnimeList(props) {
     return (
         <div className="AnimeList">
             <h3>{props.anime.name}</h3>
-            <p>Rating: {props.anime.rating}</p>
+            <img src={props.anime.imgSrc}/>
             <Box
                 sx={{
                     '& > legend': { mt: 2 },
                 }}
             />
-                <Typography component="legend">Controlled</Typography>
+                <Typography component="legend">Rating:</Typography>
                 <Rating
                     name="simple-controlled"
                     value={props.anime.rating}
