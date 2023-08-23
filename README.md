@@ -5,7 +5,7 @@
 - ⚠️Make sure to `npm i` after you clone to your local machine.
 - Note that unused stock CRA (Create React App) files have been removed.
 
-** Objective
+## Objective
 
 Our goal for this walkthrough is to review:
 - Passing and using props
