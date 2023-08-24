@@ -1,9 +1,9 @@
 import './App.css';
 import AnimeList from './AnimeList'
-import { useState, useEffect } from 'react'
+import { useState} from 'react'
 
 function App() {
-  //PROPS✅, STATE✅, HOOK✅, EVENTS
+  //PROPS✅, STATE✅, HOOK✅, EVENTS✅
   const [animes, setAnimes] = useState([
     {
       name: "Demon Slayer",
@@ -21,10 +21,6 @@ function App() {
       rating: null
     },
   ])
-
-  useEffect(() => {
-
-  }, [animes])
 
   function handleRating(e, title) {
     e.preventDefault()

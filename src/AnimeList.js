@@ -5,7 +5,6 @@ import Typography from '@mui/material/Typography';
 
 export default function AnimeList(props) {
     // console.log(props)
-
     return (
         <div className="AnimeList">
             <h3>{props.anime.name}</h3>
